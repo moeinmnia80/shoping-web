@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    body{
+        @apply bg-[#eee]
+    }
+}
+
+::selection{
+    color: #fff;
+    background-color: orange;
+}

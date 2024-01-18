@@ -28,6 +28,7 @@ const getInitialQuery = (searchParams) => {
   const queryHistory = {};
   const searchHistory = searchParams.get("search");
   const categoryHistory = searchParams.get("category");
+  console.log(searchHistory, categoryHistory);
   if (searchHistory) queryHistory.search = searchHistory;
   if (categoryHistory) queryHistory.category = categoryHistory;
   return queryHistory;

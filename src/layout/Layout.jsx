@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
       <header className="">
         <div className="flex items-center justify-between text-white bg-orange-500 rounded-lg p-4 mt-4">
           <Link to="/" className="font-bold text-xl">
-            Botostart
+            Monet
           </Link>
           <Link to="/checkout" className="relative">
             <ShopIcon style="w-8 h-8 bg-white text-orange-500 p-1 rounded-md" />
